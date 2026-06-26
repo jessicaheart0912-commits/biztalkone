@@ -1,0 +1,14 @@
+{
+  "name": "biztalker-one",
+  "version": "2.1.0",
+  "private": true,
+  "description": "BizTalker One final student-access package with single 39,900 KRW payment flow",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
+    "jsdom": "^24.1.0"
+  }
+}
